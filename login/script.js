@@ -1,6 +1,6 @@
 const CONFIG = {
     mainQuestion: "Hôm nay mày có sẵn sàng nhận một chút bất ngờ không?",
-    subQuestion: "Vợ thử bấm NO xem hó hó ",
+    subQuestion: "M thử bấm NO xem hó hó ",
     yesButton: "YES",
     noButton: "NO",
     noEscapeTexts: ["Nút ‘No’ bị hư rồi, chỉ còn ‘Yes’ thôi", "Hehe, hỏng đc mò 😜", "Chạy đâu cho thoát💕"],
