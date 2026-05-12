@@ -1,27 +1,23 @@
 const CONFIG = {
-    mainQuestion: "Will you be my Valentine?",
+    mainQuestion: "Hôm nay mày có sẵn sàng nhận một chút bất ngờ không?",
     subQuestion: "M thử bấm NO xem hó hó ",
     yesButton: "YES",
     noButton: "NO",
-    noEscapeTexts: ["Không được đâu😝", "Hehe, hỏng đc mò 😜", "Thôi đằng nào cũng là của tao 💕"],
+    noEscapeTexts: ["Nút ‘No’ bị hư rồi, chỉ còn ‘Yes’ thôi", "Hehe, hỏng đc mò 😜", "Chạy đâu cho thoát💕"],
     confirmTitle: "YAAAY! Ỏo 💗",
-    confirmText: "M đồng ý sao…",
-    badgeText: "Yêu M thíaaa 💗",
+    confirmText: "ui dễ thương thí…",
+    badgeText: "Nay Bình Nhi xinh gái lắm 💗",
     nextButton: "Tiếp tục ",
     repeatButton: "Lặp lại câu hỏi",
-    flowerTitle: "Đây là món quà tặng cho M nè  ",
+    flowerTitle: "Đây là món quà tặng cho mày nè ",
     takeBouquetButton: "Nhận quàaa ",
-    bouquetMessage: "Tuyệt! Giờ nó là của M gòii 💕",
+    bouquetMessage: "Tuyệt! Giờ nó là của mày gòii 💕",
     nextFlowerButton: "Tiếp tục ",
-    collageTitle: "Bé iu của tao",
-    collageSubtitle: "Từ khi mày đến, ngay cả những điều đơn giản nhất cũng trở nên đặc biệt. Chúc mừng ngày Valentine nha. 💕",
+    collageTitle: "Nhi oi!",
+    collageSubtitle: "4 things that remind u of me",
     nextCollageButton: "Tiếp tục đến trang cuối…",
-    finalTitle: "Gửi Nhi 💞",
-    finalMessage: `Đừng tự ti, biết đâu mày cũng đang là ánh sáng của một ai đó. 🐰 Chúc mọi điều tốt đẹp luôn đến với mày, mọi nỗ lực điều được đền đáp xứng đáng nha. Mong mày trong tuổi mới, không cần chạy đến biển khơi xa xôi, vẫn có thể thấy xuân về hoa nở.
-
-Giữa những năm tháng cuối cấp áp lực như thế này, hi vọng một chút quà của tao sẽ giúp mày có một chút động viên nào đó, đó là bé ong này đây. Cũng không phải là bé ong bình thường, là một bé ong đội mũ tốt nghiệp. Tao không quên Nhi thích mèo và các bé cún, nhưng mong muốn mang tới cho Nhi một bé ong và một thông điệp nho nhỏ: "Con ong không bao giờ hối tiếc về những chuyến bay xa, bởi chúng biết giá trị của mỗi giọt mật".
-
-Mong rằng mày không bao giờ hối tiếc với những gì mày đã chọn, mày thật sự là người có trách nhiệm trong việc lựa chọn con đường của bản thân, và mày vẫn đang cố gắng để thực hiện điều đó, nó xứng đáng. Tên mày đẹp lắm, nhất định phải có tên trong giấy báo trúng tuyển nha 🌷`,
+    finalTitle: "Happy Birthday, Bình Nhoo :3",
+    finalMessage: `Đừng tự ti, biết đâu mày cũng đang là ánh sáng của một ai đó. 🐰 Chúc mọi điều tốt đẹp luôn đến với mày, mọi nỗ lực điều được đền đáp xứng đáng nha. Mong mày trong tuổi mới, không cần chạy đến biển khơi xa xôi, vẫn có thể thấy xuân về hoa nở. Giữa những năm tháng cuối cấp áp lực như thế này, hi vọng một chút quà của tao sẽ giúp mày có một chút động viên nào đó, đó là bé ong này đây. Cũng không phải là bé ong bình thường, là một bé ong đội mũ tốt nghiệp. Tao không quên Nhi thích mèo và các bé cún, nhưng mong muốn mang tới cho Nhi một bé ong và một thông điệp nho nhỏ: "Con ong không bao giờ hối tiếc về những chuyến bay xa, bởi chúng biết giá trị của mỗi giọt mật ". Mong rằng mày không bao giờ hối tiếc với những gì mày đã chọn, mày thật sự là người có trách nhiệm trong việc lựa chọn con đường của bản thân, và mày vẫn đang cố gắng để thực hiện điều đó, nó xứng đáng. Tên mày đẹp lắm, nhất định phải có tên trong giấy báo trúng tuyển nha 💗`,
     restartButton: "Restart ",
     copyButton: "Copy Message ",
     copySuccess: "Đã copy thành công "
