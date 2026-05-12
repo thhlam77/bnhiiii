@@ -56,7 +56,15 @@ h1 {
   height: 100%;
 }
 
-
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: contain;
+  animation: bounceAvatar 3s ease-in-out infinite;
+}
 
 .avatar:hover {
   transform: scale(1.1) rotate(5deg);
@@ -224,39 +232,47 @@ input#password.shake {
   }
 
 /* Mobile fix */
-
-
-.avatar {
-  width: 150px; /* Giảm từ 200px xuống 150px cho máy tính */
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid #fff;
-  box-shadow: 0 0 20px rgba(255, 102, 178, 0.5);
-  margin-bottom: 10px;
-}
-
 @media screen and (max-width: 768px) {
-  .avatar {
-    width: 100px; /* Trên điện thoại thu nhỏ còn 100px để không bị tràn */
-    height: 100px;
-    border: 3px solid #fff;
+  body {
+    overflow-x: hidden;
+    height: auto;
+    padding: 20px 10px;
   }
-  
+
   .content {
     flex-direction: column;
-    padding: 15px;
-    gap: 10px;
-    width: 85%; /* Thu hẹp khung content một chút để cân đối */
+    gap: 18px;
+    width: 100%;
+  }
+
+  .avatar {
+    width: 130px;
+    height: 130px;
+  }
+
+  .password-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  input#password {
+    width: 170px;
+    max-width: 80vw;
+  }
+
+  .keypad {
+    gap: 8px;
   }
 
   .keypad button {
-    width: 45px; /* Thu nhỏ nút bấm bàn phím trên điện thoại */
-    height: 45px;
-    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
   }
-  
-  h1 {
-    font-size: 18px; /* Thu nhỏ chữ tiêu đề */
+
+  .submit {
+    width: 50px;
+    height: 50px;
   }
 }
